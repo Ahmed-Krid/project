@@ -1,0 +1,27 @@
+{
+    "manifest_version":3 ,
+    "name" : " linkedin auto summarizer ",
+    "version" : "1.0",
+    "permission": [
+        "activeTab",
+        "downloads"
+    ],
+    "background": {
+        "service_worker": "json.js"
+    },
+
+    "cntent_script" :
+        {
+        "matches":["https://www.linkedin.com/*"],
+        "js": ["module.js"]
+
+        },
+        "action" : {
+            "default_popup": "popup.html",
+            "default_icon": {
+            "48" : "logo.png",
+            "128" : "logo2.png"
+            }
+        }
+
+}
