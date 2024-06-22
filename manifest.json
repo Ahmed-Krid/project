@@ -2,12 +2,12 @@
     "manifest_version":3 ,
     "name" : " linkedin auto summarizer ",
     "version" : "1.0",
-    "permission": [
+    "permissions": [
         "activeTab",
         "downloads"
     ],
     "background": {
-        "service_worker": "json.js"
+        "service_worker": "module.js"
     },
 
     "cntent_script" :
