@@ -1,10 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
-  <title>linkedin auto summarizer</title>
-  <script src="popup.js"></script>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinkedIn Summarizer</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div class="container">
+      <p id="summaryp"></p>
+        <div class="left-curve"></div>
+        <div class="title">
+          <h1>Bienvenue au</h1>
+          <h2>LinkedIn Summarizer</h2>
+        </div>
+
+        <button id="summarize-button">Résumer</button>
+
+    </div>
+
+    <!-- Add a script tag to load the popup script -->
+    <script src="popup.js" defer></script>
 </body>
 </html>
